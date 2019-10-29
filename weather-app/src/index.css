@@ -1,0 +1,68 @@
+.header {
+  margin-top: 10%;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Nova Square', cursive;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+
+}
+
+.form {
+  margin: auto;
+  width: max-content;
+}
+
+.weather-info p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.weather-info {
+  margin: auto;
+  width: max-content;
+}
+
+span {
+  color: #146e5d;
+}
+
+.conf-btn {
+  width: 150px;
+  height: 33px;
+  border: 0 solid black;
+  background-color: #00bba0;
+  border-radius: 30px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  margin-left: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.conf-btn:hover {
+  background-color: #00caaf;
+}
+
+.form>input {
+  width: 150px;
+  height: 30px;
+  border: 0 solid black;
+  background-color: #aa4955;
+  border-radius: 30px;
+  color: #ffd825;
+  padding-left: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  outline: none;
+}
+
+/*#root>div {*/
+  /*height: max-content;*/
+  /*border: 2px solid grey;*/
+/*}*/

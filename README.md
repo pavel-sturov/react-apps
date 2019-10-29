@@ -1,2 +1,2 @@
 # react-apps
-<H1>MY First React Applications</h1>
+<H1>My First React Applications</h1>

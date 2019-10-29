@@ -1,0 +1,9 @@
+form {
+    margin: 1rem 0;
+    justify-content: space-evenly;
+}
+
+.text-input {
+    flex-grow: 2;
+    margin-right: 3px;
+}

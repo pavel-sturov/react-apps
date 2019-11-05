@@ -5,6 +5,7 @@
     align-content: center;
     width: 1200px;
     height: 800px;
+    padding-bottom: 60px;
     margin: 10px auto;
 }
 
@@ -12,6 +13,7 @@
     border: 1px solid brown;
     width: 390px;
     height: 390px;
+    position: relative;
 }
 
 .character-img {
@@ -24,6 +26,7 @@
 .search-btn {
     display: block;
     margin: 30px auto;
+    font-family: 'Signika', sans-serif;
     width: 150px;
     height: 40px;
     border-radius: 15px;
@@ -63,4 +66,41 @@
     background-color: brown;
     border: 0;
     outline: none;
+}
+
+.loading, .done {
+    position: absolute;
+    color: wheat;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 50px;
+}
+
+.btn-info {
+    position: absolute;
+    font-family: 'Signika', sans-serif;
+    cursor: pointer;
+    right: 5px;
+    top: 10px;
+    width: 50px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 8px;
+    background-color: brown;
+    color: #ffd466;
+    outline: none;
+    z-index: 5;
+}
+
+.btn-info:hover {
+    background-color: #cd341b;
+}
+
+.btn-info:active {
+    background-color: brown;
+}
+
+.appearance {
+    margin-left: -40px;
 }

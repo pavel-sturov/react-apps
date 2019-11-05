@@ -1,0 +1,43 @@
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    width: 1240px;
+    height: 50px;
+    color: #ffd36e;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.logo>img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.footer-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-item {
+    padding-top: 15px;
+}
+

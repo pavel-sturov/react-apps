@@ -1,3 +1,11 @@
+html, body {
+    height: 100%;
+}
+
+#root {
+    position: relative;
+    min-height: 100%;
+}
 
 h1, h2, h3 {
     text-align: center;

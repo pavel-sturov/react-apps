@@ -5,6 +5,7 @@ import Characters from "../characters";
 import CharacterPage from "../character-page";
 import NotFound from "../not-found";
 import Header from "../header";
+import Footer from "../footer";
 import './main.css';
 
 const ROUTES = {
@@ -15,9 +16,9 @@ const ROUTES = {
 
 const Main = () => {
   return (
-    <div id={123}>
-      <Header />
-      <Router>
+   <>
+       <Header />
+       <Router>
         <Switch>
           <Route exact component={HomePage} path={ROUTES.HOME} />{" "}
           <Route
@@ -28,8 +29,9 @@ const Main = () => {
           <Route exact component={Characters} path={ROUTES.CHARACTERS} />{" "}
           <Route component={NotFound} />{" "}
         </Switch>{" "}
-      </Router>
-    </div>
+       </Router>
+      <Footer />
+    </>
   );
 };
 

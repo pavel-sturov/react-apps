@@ -16,7 +16,7 @@ nav>ul {
     background-size: cover;
 }
 
-li {
+.nav-link {
     list-style: none;
     position: relative;
     margin-top: 20px;
@@ -24,18 +24,18 @@ li {
     font-size: 25px;
 }
 
-a {
+.nav-link>a {
     color: #ffd36e;
     text-decoration: none;
 }
 
-a:hover {
+.nav-link>a:hover {
     cursor: pointer;
     color: #ffefbd;
     text-decoration: peachpuff;
 }
 
-li:after {
+.nav-link:after {
     content: "";
     border-bottom: 2px solid #ffefbd;;
     margin-top: 5px;
@@ -45,7 +45,7 @@ li:after {
     left: 50%
 }
 
-li:hover:after {
+.nav-link:hover:after {
     width: 100%;
     height: 3px;
     left: 0;
